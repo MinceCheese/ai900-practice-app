@@ -1,24 +1,77 @@
+
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
   background: #f4f4f4;
+  color: #333;
   transition: background 0.3s, color 0.3s;
 }
+
 body.dark {
   background: #121212;
   color: #ffffff;
 }
+
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   background: white;
   padding: 20px;
   border-radius: 8px;
 }
+
 body.dark .container {
   background: #1e1e1e;
 }
+
 button {
   margin-top: 10px;
-  padding: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+select, input[type="number"] {
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+/* Drag-and-drop styles */
+.drag-items, .drop-zones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.drag-item, .drop-zone {
+  padding: 10px 15px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: move;
+  min-width: 150px;
+  text-align: center;
+}
+
+.drop-zone {
+  background-color: #e0f7fa;
+}
+
+.drop-zone.correct {
+  border-color: green;
+}
+
+.drop-zone.incorrect {
+  border-color: red;
+}
+
+/* Chart canvas */
+#score-chart {
+  margin-top: 30px;
 }
