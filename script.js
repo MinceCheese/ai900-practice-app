@@ -19,7 +19,7 @@ function startQuiz() {
   fetch('ai900_questions.json')
     .then(res => res.json())
     .then(data => {
-      questions = data.sort(() => Math.random() - 0.5).slice(0, count); // Randomize
+      questions = data.sort(() => Math.random() - 0.5).slice(0, count);
       currentQuestion = 0;
       selectedAnswers = [];
       timeElapsed = 0;
@@ -45,6 +45,9 @@ function showQuestion() {
   container.appendChild(questionEl);
 
   if (q.type === 'single' || q.type === 'multi') {
+    const optionsWrapper = document.createElement('div');
+    optionsWrapper.className = 'options-wrapper';
+
     q.options.forEach((opt, i) => {
       const btn = document.createElement('button');
       btn.textContent = opt;
@@ -63,11 +66,15 @@ function showQuestion() {
           }
         }
       };
-      container.appendChild(btn);
+      optionsWrapper.appendChild(btn);
     });
+
+    container.appendChild(optionsWrapper);
+
     if (q.type === 'multi') {
       const nextBtn = document.createElement('button');
       nextBtn.textContent = 'Next';
+      nextBtn.className = 'next-button';
       nextBtn.onclick = nextQuestion;
       container.appendChild(nextBtn);
     }
@@ -123,9 +130,10 @@ function showQuestion() {
       });
     });
 
-    selectedAnswers[currentQuestion] = q.pairs.map((_, i) => i); // Placeholder
+    selectedAnswers[currentQuestion] = q.pairs.map((_, i) => i);
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'Next';
+    nextBtn.className = 'next-button';
     nextBtn.onclick = nextQuestion;
     container.appendChild(nextBtn);
   }
