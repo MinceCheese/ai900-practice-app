@@ -19,7 +19,7 @@ function startQuiz() {
   fetch('ai900_questions.json')
     .then(res => res.json())
     .then(data => {
-      questions = data.sort(() => Math.random() - 0.5).slice(0, count); // Randomize questions
+      questions = data.sort(() => Math.random() - 0.5).slice(0, count); // Randomize
       currentQuestion = 0;
       selectedAnswers = [];
       timeElapsed = 0;
@@ -72,12 +72,58 @@ function showQuestion() {
       container.appendChild(nextBtn);
     }
   } else if (q.type === 'dragdrop') {
-    q.pairs.forEach(pair => {
-      const pairEl = document.createElement('p');
-      pairEl.textContent = `${pair.left} ➜ ${pair.right}`;
-      container.appendChild(pairEl);
+    container.innerHTML += `<div><strong>Match the AI workload to its scenario:</strong></div>`;
+
+    const dragItems = document.createElement('div');
+    dragItems.className = 'drag-items';
+
+    q.pairs.forEach((pair, i) => {
+      const item = document.createElement('div');
+      item.className = 'drag-item';
+      item.draggable = true;
+      item.id = `item${i}`;
+      item.textContent = pair.left;
+      dragItems.appendChild(item);
     });
-    selectedAnswers[currentQuestion] = q.pairs.map((_, i) => i);
+
+    const dropZones = document.createElement('div');
+    dropZones.className = 'drop-zones';
+
+    q.pairs.forEach((pair, i) => {
+      const zone = document.createElement('div');
+      zone.className = 'drop-zone';
+      zone.dataset.answer = `item${i}`;
+      zone.textContent = pair.right;
+      dropZones.appendChild(zone);
+    });
+
+    container.appendChild(dragItems);
+    container.appendChild(dropZones);
+
+    document.querySelectorAll('.drag-item').forEach(item => {
+      item.addEventListener('dragstart', e => {
+        e.dataTransfer.setData('text/plain', e.target.id);
+      });
+    });
+
+    document.querySelectorAll('.drop-zone').forEach(zone => {
+      zone.addEventListener('dragover', e => e.preventDefault());
+      zone.addEventListener('drop', e => {
+        e.preventDefault();
+        const draggedId = e.dataTransfer.getData('text/plain');
+        const draggedEl = document.getElementById(draggedId);
+        if (!zone.querySelector('.drag-item')) {
+          zone.appendChild(draggedEl);
+          if (draggedId === zone.dataset.answer) {
+            zone.style.borderColor = 'green';
+          } else {
+            zone.style.borderColor = 'red';
+          }
+        }
+      });
+    });
+
+    selectedAnswers[currentQuestion] = q.pairs.map((_, i) => i); // Placeholder
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'Next';
     nextBtn.onclick = nextQuestion;
