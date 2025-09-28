@@ -19,7 +19,7 @@ function startQuiz() {
   fetch('ai900_questions.json')
     .then(res => res.json())
     .then(data => {
-      questions = data.sort(() => Math.random() - 0.5).slice(0, count);
+      questions = data.sort(() => Math.random() - 0.5).slice(0, count); // Randomize questions
       currentQuestion = 0;
       selectedAnswers = [];
       timeElapsed = 0;
