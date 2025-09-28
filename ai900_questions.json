@@ -1,24 +1,43 @@
 [
   {
-    "id": 1,
-    "type": "single",
-    "question": "Which Azure service is used for training ML models?",
-    "options": [
-      "Azure Bot Service",
-      "Azure Machine Learning",
-      "Azure Cognitive Search",
-      "Azure AI Vision"
+    "id": "q_dragdrop_44",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (44)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
     ],
     "answer": [
-      1
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
     ],
-    "topic": "Machine Learning",
-    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
   },
   {
-    "id": 2,
+    "id": "q_multi_92",
     "type": "multi",
-    "question": "Which are types of AI workloads?",
+    "question": "Which of the following are types of AI workloads? (92)",
     "options": [
       "Computer Vision",
       "Natural Language Processing",
@@ -34,9 +53,25 @@
     "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
   },
   {
-    "id": 3,
+    "id": "q_single_10",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (10)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_54",
     "type": "dragdrop",
-    "question": "Match AI workload to scenario",
+    "question": "Match the AI workload to its scenario. (54)",
     "pairs": [
       {
         "left": "Image Classification",
@@ -45,13 +80,6823 @@
       {
         "left": "Text Analysis",
         "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
       }
     ],
     "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_72",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (72)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_90",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (90)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
       0,
-      1
+      1,
+      3
     ],
     "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_78",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (78)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
     "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_53",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (53)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_80",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (80)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_41",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (41)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_51",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (51)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_83",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (83)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_39",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (39)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_71",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (71)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_95",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (95)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_50",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (50)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_30",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (30)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_95",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (95)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_85",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (85)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_4",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (4)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_43",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (43)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_57",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (57)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_69",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (69)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_23",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (23)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_32",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (32)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_27",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (27)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_75",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (75)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_81",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (81)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_50",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (50)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_36",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (36)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_38",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (38)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_34",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (34)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_58",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (58)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_50",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (50)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_66",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (66)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_8",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (8)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_40",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (40)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_68",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (68)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_45",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (45)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_56",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (56)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_35",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (35)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_61",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (61)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_51",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (51)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_92",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (92)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_94",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (94)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_88",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (88)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_91",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (91)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_93",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (93)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_87",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (87)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_35",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (35)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_2",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (2)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_55",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (55)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_98",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (98)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_12",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (12)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_37",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (37)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_58",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (58)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_19",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (19)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_96",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (96)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_87",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (87)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_33",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (33)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_99",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (99)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_44",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (44)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_76",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (76)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_54",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (54)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_8",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (8)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_23",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (23)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_100",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (100)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_65",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (65)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_93",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (93)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_37",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (37)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_18",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (18)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_61",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (61)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_9",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (9)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_27",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (27)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_59",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (59)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_33",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (33)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_40",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (40)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_34",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (34)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_73",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (73)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_68",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (68)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_45",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (45)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_49",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (49)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_3",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (3)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_99",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (99)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_57",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (57)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_43",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (43)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_47",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (47)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_95",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (95)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_56",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (56)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_60",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (60)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_63",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (63)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_5",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (5)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_48",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (48)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_7",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (7)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_10",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (10)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_5",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (5)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_64",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (64)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_74",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (74)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_56",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (56)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_14",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (14)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_13",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (13)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_79",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (79)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_36",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (36)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_65",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (65)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_21",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (21)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_67",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (67)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_11",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (11)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_42",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (42)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_55",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (55)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_21",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (21)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_26",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (26)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_67",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (67)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_64",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (64)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_6",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (6)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_48",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (48)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_22",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (22)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_5",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (5)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_77",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (77)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_10",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (10)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_76",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (76)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_52",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (52)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_86",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (86)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_82",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (82)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_90",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (90)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_29",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (29)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_70",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (70)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_80",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (80)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_49",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (49)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_55",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (55)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_62",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (62)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_31",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (31)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_17",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (17)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_58",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (58)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_81",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (81)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_70",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (70)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_20",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (20)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_47",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (47)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_14",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (14)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_12",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (12)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_97",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (97)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_86",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (86)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_14",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (14)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_31",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (31)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_88",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (88)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_42",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (42)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_9",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (9)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_1",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (1)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_47",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (47)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_66",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (66)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_63",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (63)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_22",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (22)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_32",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (32)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_41",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (41)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_24",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (24)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_26",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (26)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_42",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (42)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_19",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (19)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_39",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (39)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_52",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (52)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_36",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (36)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_94",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (94)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_62",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (62)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_25",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (25)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_6",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (6)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_68",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (68)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_6",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (6)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_3",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (3)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_71",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (71)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_46",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (46)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_24",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (24)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_83",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (83)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_15",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (15)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_4",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (4)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_69",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (69)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_1",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (1)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_67",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (67)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_53",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (53)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_76",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (76)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_30",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (30)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_1",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (1)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_72",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (72)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_65",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (65)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_32",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (32)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_61",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (61)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_73",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (73)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_87",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (87)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_85",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (85)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_59",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (59)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_16",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (16)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_97",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (97)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_33",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (33)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_51",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (51)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_12",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (12)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_71",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (71)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_13",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (13)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_80",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (80)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_26",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (26)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_100",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (100)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_53",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (53)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_69",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (69)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_20",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (20)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_27",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (27)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_73",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (73)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_79",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (79)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_86",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (86)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_92",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (92)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_75",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (75)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_49",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (49)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_89",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (89)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_78",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (78)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_62",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (62)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_40",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (40)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_63",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (63)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_77",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (77)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_29",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (29)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_82",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (82)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_37",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (37)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_3",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (3)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_22",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (22)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_45",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (45)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_90",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (90)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_88",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (88)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_97",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (97)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_16",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (16)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_98",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (98)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_31",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (31)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_13",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (13)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_15",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (15)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_25",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (25)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_79",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (79)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_46",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (46)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_28",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (28)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_30",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (30)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_57",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (57)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_89",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (89)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_11",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (11)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_60",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (60)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_84",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (84)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_39",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (39)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_2",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (2)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_64",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (64)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_18",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (18)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_21",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (21)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_66",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (66)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_48",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (48)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_78",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (78)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_41",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (41)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_98",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (98)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_99",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (99)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_83",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (83)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_38",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (38)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_28",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (28)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_17",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (17)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_38",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (38)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_4",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (4)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_7",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (7)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_100",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (100)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_44",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (44)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_34",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (34)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_35",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (35)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_84",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (84)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_91",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (91)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_19",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (19)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_43",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (43)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_9",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (9)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_59",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (59)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_82",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (82)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_25",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (25)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_dragdrop_91",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (91)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_46",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (46)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_54",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (54)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_74",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (74)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_24",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (24)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_2",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (2)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_70",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (70)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_72",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (72)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_29",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (29)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_96",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (96)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_16",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (16)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_18",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (18)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_single_77",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (77)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_15",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (15)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_17",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (17)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_85",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (85)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_84",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (84)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_89",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (89)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_7",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (7)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_multi_28",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (28)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_75",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (75)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_96",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (96)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_single_11",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (11)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_dragdrop_94",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (94)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_93",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (93)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_81",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (81)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_23",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (23)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_52",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (52)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_dragdrop_60",
+    "type": "dragdrop",
+    "question": "Match the AI workload to its scenario. (60)",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "answer": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      },
+      {
+        "left": "Speech Recognition",
+        "right": "Transcribing spoken words to text"
+      }
+    ],
+    "topic": "Cognitive Services",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  },
+  {
+    "id": "q_multi_20",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (20)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": "q_single_8",
+    "type": "single",
+    "question": "What is the primary use of Azure Machine Learning? (8)",
+    "options": [
+      "Building web apps",
+      "Creating virtual machines",
+      "Training and deploying ML models",
+      "Managing databases"
+    ],
+    "answer": [
+      2
+    ],
+    "topic": "Azure Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": "q_multi_74",
+    "type": "multi",
+    "question": "Which of the following are types of AI workloads? (74)",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
   }
 ]
