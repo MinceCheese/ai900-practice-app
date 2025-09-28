@@ -41,7 +41,7 @@ function showQuestion() {
   container.innerHTML = '';
   const q = questions[currentQuestion];
   const questionEl = document.createElement('h2');
-  questionEl.textContent = q.question;
+  questionEl.textContent = `Question ${currentQuestion + 1}: ${q.question}`;
   container.appendChild(questionEl);
 
   if (q.type === 'single' || q.type === 'multi') {
