@@ -14,6 +14,10 @@ document.getElementById('user-dropdown').onchange = (e) => {
   user = e.target.value;
 };
 
+function cleanQuestionText(text) {
+  return text.replace(/\s*\\(\\d+\\)\\s*$/, '').trim();
+}
+
 function startQuiz() {
   const count = parseInt(document.getElementById('question-count').value);
   fetch('ai900_questions.json')
@@ -41,7 +45,7 @@ function showQuestion() {
   container.innerHTML = '';
   const q = questions[currentQuestion];
   const questionEl = document.createElement('h2');
-  questionEl.textContent = `Question ${currentQuestion + 1}: ${q.question}`;
+  questionEl.textContent = `Question ${currentQuestion + 1}: ${cleanQuestionText(q.question)}`;
   container.appendChild(questionEl);
 
   if (q.type === 'single' || q.type === 'multi') {
@@ -84,6 +88,11 @@ function showQuestion() {
     const dragItems = document.createElement('div');
     dragItems.className = 'drag-items';
 
+    const dropZones = document.createElement('div');
+    dropZones.className = 'drop-zones';
+
+    selectedAnswers[currentQuestion] = [];
+
     q.pairs.forEach((pair, i) => {
       const item = document.createElement('div');
       item.className = 'drag-item';
@@ -91,12 +100,7 @@ function showQuestion() {
       item.id = `item${i}`;
       item.textContent = pair.left;
       dragItems.appendChild(item);
-    });
 
-    const dropZones = document.createElement('div');
-    dropZones.className = 'drop-zones';
-
-    q.pairs.forEach((pair, i) => {
       const zone = document.createElement('div');
       zone.className = 'drop-zone';
       zone.dataset.answer = `item${i}`;
@@ -121,6 +125,10 @@ function showQuestion() {
         const draggedEl = document.getElementById(draggedId);
         if (!zone.querySelector('.drag-item')) {
           zone.appendChild(draggedEl);
+          selectedAnswers[currentQuestion].push({
+            left: draggedEl.textContent,
+            right: zone.textContent
+          });
           if (draggedId === zone.dataset.answer) {
             zone.style.borderColor = 'green';
           } else {
@@ -130,7 +138,6 @@ function showQuestion() {
       });
     });
 
-    selectedAnswers[currentQuestion] = q.pairs.map((_, i) => i);
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'Next';
     nextBtn.className = 'next-button';
@@ -157,11 +164,21 @@ function showReview() {
   let score = 0;
   questions.forEach((q, i) => {
     const div = document.createElement('div');
-    div.innerHTML = `<strong>Q${i+1}:</strong> ${q.question}<br>`;
-    const correct = JSON.stringify(q.answer.sort()) === JSON.stringify((selectedAnswers[i] || []).sort());
+    div.innerHTML = `<strong>Q${i+1}:</strong> ${cleanQuestionText(q.question)}<br>`;
+    let correct = false;
+
+    if (q.type === 'dragdrop') {
+      const userPairs = selectedAnswers[i] || [];
+      correct = JSON.stringify(userPairs) === JSON.stringify(q.answer);
+      div.innerHTML += `Your Answer: ${userPairs.map(p => `${p.left} ➜ ${p.right}`).join(', ')}<br>`;
+      div.innerHTML += `Correct Answer: ${q.answer.map(p => `${p.left} ➜ ${p.right}`).join(', ')}<br>`;
+    } else {
+      correct = JSON.stringify(q.answer.sort()) === JSON.stringify((selectedAnswers[i] || []).sort());
+      div.innerHTML += `Your Answer: ${(selectedAnswers[i] || []).map(x => q.options ? q.options[x] : '').join(', ')}<br>`;
+      div.innerHTML += `Correct Answer: ${q.options ? q.answer.map(x => q.options[x]).join(', ') : ''}<br>`;
+    }
+
     if (correct) score++;
-    div.innerHTML += `Your Answer: ${(selectedAnswers[i] || []).map(x => q.options ? q.options[x] : '').join(', ')}<br>`;
-    div.innerHTML += `Correct Answer: ${q.options ? q.answer.map(x => q.options[x]).join(', ') : ''}<br>`;
     div.innerHTML += `Result: ${correct ? '✅' : '❌'}<br>`;
     div.innerHTML += `${q.learn_link}Learn More</a><br><br>`;
     container.appendChild(div);
