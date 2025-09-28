@@ -1,7 +1,8 @@
+
 let questions = [];
 let currentQuestion = 0;
 let selectedAnswers = [];
-let user = 'user1';
+let user = 'monika';
 let timer;
 let timeElapsed = 0;
 
@@ -108,7 +109,7 @@ function showReview() {
     div.innerHTML += `Your Answer: ${(selectedAnswers[i] || []).map(x => q.options ? q.options[x] : '').join(', ')}<br>`;
     div.innerHTML += `Correct Answer: ${q.options ? q.answer.map(x => q.options[x]).join(', ') : ''}<br>`;
     div.innerHTML += `Result: ${correct ? '✅' : '❌'}<br>`;
-    div.innerHTML += `<a href="${q.learn_link}" target="_blank">Learn More</a><br><br>`;
+    div.innerHTML += `${q.learn_link}Learn More</a><br><br>`;
     container.appendChild(div);
   });
   saveScore(score);
@@ -131,9 +132,9 @@ function showChart() {
     data: {
       labels,
       datasets: [{
-        label: 'Score History',
+        label: `Score History for ${user === 'monika' ? 'Monika-chan' : 'Geoff-san'}`,
         data,
-        borderColor: 'blue',
+        borderColor: user === 'monika' ? 'purple' : 'blue',
         fill: false
       }]
     }
