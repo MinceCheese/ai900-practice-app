@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Which Azure service is used for training ML models?",
+    "options": [
+      "Azure Bot Service",
+      "Azure Machine Learning",
+      "Azure Cognitive Search",
+      "Azure AI Vision"
+    ],
+    "answer": [
+      1
+    ],
+    "topic": "Machine Learning",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/machine-learning/"
+  },
+  {
+    "id": 2,
+    "type": "multi",
+    "question": "Which are types of AI workloads?",
+    "options": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Blockchain",
+      "Generative AI"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "id": 3,
+    "type": "dragdrop",
+    "question": "Match AI workload to scenario",
+    "pairs": [
+      {
+        "left": "Image Classification",
+        "right": "Identifying objects in photos"
+      },
+      {
+        "left": "Text Analysis",
+        "right": "Extracting key phrases from documents"
+      }
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "topic": "AI Workloads",
+    "learn_link": "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+  }
+]

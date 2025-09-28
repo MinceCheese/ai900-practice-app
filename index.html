@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-900 Practice Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI-900 Practice Quiz</h1>
+    <div id="user-select">
+      <label>Select User:</label>
+      <select id="user-dropdown">
+        <option value="user1">User 1</option>
+        <option value="user2">User 2</option>
+      </select>
+    </div>
+    <div id="start-screen">
+      <label for="question-count">Number of Questions:</label>
+      <input type="number" id="question-count" min="1" max="300" value="10" />
+      <button id="start-btn">Start Quiz</button>
+      <button id="toggle-dark">Toggle Dark Mode</button>
+    </div>
+    <div id="quiz-container" style="display:none;"></div>
+    <div id="review-container" style="display:none;"></div>
+    <canvas id="score-chart" width="400" height="200"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
