@@ -140,29 +140,37 @@ export async function questionId(q) {
  * Basic renderer for the summary view (hook this from your script.js)
  */
 export function renderSummary(container, summary) {
-  container.innerHTML = `
-    <section class="summary-header">
-      <div class="kpi"><div class="label">Score</div><div class="value">${summary.scorePct}%</div></div>
-      <div class="kpi"><div class="label">Correct</div><div class="value">${summary.correct}/${summary.total}</div></div>
-      <div class="kpi"><div class="label">Avg time</div><div class="value">${Math.round(summary.avgTimeMs/1000)}s</div></div>
-    </section>
-    <section>
-      <h3>Strengths & Weaknesses</h3>
-      <div id="topicBars" class="topic-bars"></div>
-      <canvas id="topicChart" height="160"></canvas>
-    </section>
-    <section>
-      <h3>Recommendations</h3>
-      <ul id="recoList"></ul>
-    </section>
-    <section>
-      <button id="retakeWeakBtn" class="primary">Retake 20 from weak areas</button>
-    </section>
-    <section>
-      <h3>Review Queue (missed items)</h3>
-      <div id="reviewList"></div>
-    </section>
-  `;
+
+container.innerHTML = `
+  <h2>Summary</h2>
+  <section class="summary-header">
+    <div class="kpi">
+      <div class="label">Score</div>
+      <div class="value" id="kpi-score">${summary.scorePct}%</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Correct</div>
+      <div class="value" id="kpi-correct">${summary.correct}/${summary.total}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Avg time</div>
+      <div class="value" id="kpi-avg">${Math.round(summary.avgTimeMs/1000)}s</div>
+    </div>
+  </section>
+  <!-- keep the rest of your summary markup unchanged -->
+  
+// === Bright + color-coded KPIs (≥70% pass) ===
+const PASS_THRESHOLD = 70; // tweak if you want
+const pass = summary.scorePct >= PASS_THRESHOLD;
+
+['#kpi-score', '#kpi-correct', '#kpi-avg'].forEach(sel => {
+  const el = container.querySelector(sel);
+  if (!el) return;
+  el.classList.add('bright', pass ? 'pass' : 'fail');
+});
+
+`;
+
 
   // topic bars
   const bars = container.querySelector('#topicBars');
