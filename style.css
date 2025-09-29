@@ -1,47 +1,114 @@
+/* Base styles */
+:root {
+  --primary: #4F8EF7;
+  --bg-light: #f4f4f4;
+  --bg-dark: #121212;
+  --card-light: #ffffff;
+  --card-dark: #1e1e1e;
+  --text-light: #333;
+  --text-dark: #fff;
+  --border-radius: 8px;
+}
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   padding: 20px;
-  background: #f4f4f4;
-  color: #333;
+  background: var(--bg-light);
+  color: var(--text-light);
   transition: background 0.3s, color 0.3s;
+  line-height: 1.5;
 }
 
 body.dark {
-  background: #121212;
-  color: #ffffff;
+  background: var(--bg-dark);
+  color: var(--text-dark);
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-  background: white;
+  background: var(--card-light);
   padding: 20px;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: background 0.3s;
 }
 
 body.dark .container {
-  background: #1e1e1e;
+  background: var(--card-dark);
 }
 
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+/* Buttons */
 button {
   margin-top: 10px;
-  padding: 10px 15px;
+  padding: 10px 16px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
+  border-radius: var(--border-radius);
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
 }
 
+button:hover {
+  background: #3a73d9;
+}
+
+.next-button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Inputs */
 select, input[type="number"] {
   padding: 8px;
   margin-top: 10px;
   font-size: 16px;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 200px;
 }
 
-h1, h2 {
-  margin-bottom: 20px;
+/* Options layout */
+.options-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-/* Drag-and-drop styles */
+.options-wrapper button {
+  flex: 1 1 calc(50% - 10px);
+  min-width: 120px;
+  background: #eee;
+  color: #333;
+}
+
+body.dark .options-wrapper button {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.options-wrapper button:hover {
+  background: #ddd;
+}
+
+body.dark .options-wrapper button:hover {
+  background: #3a3a3a;
+}
+
+/* Drag-and-drop */
 .drag-items, .drop-zones {
   display: flex;
   gap: 10px;
@@ -49,35 +116,15 @@ h1, h2 {
   margin-top: 10px;
 }
 
-/* Summary KPIs */
-.summary-header { display:flex; gap:12px; margin:8px 0 16px; }
-.kpi { flex:1; background:var(--card, #1e1e1e); border-radius:10px; padding:12px; text-align:center; }
-.kpi .label { font-size:.8rem; opacity:.8; }
-.kpi .value { font-size:1.4rem; font-weight:700; }
-
-/* Topic bars */
-.topic-bars { display:grid; gap:10px; margin:10px 0 18px; }
-.topic-bar .bar-label { font-weight:600; margin-bottom:4px; }
-.topic-bar .bar-wrap { background:#333; border-radius:6px; overflow:hidden; height:10px; }
-.topic-bar .bar { height:10px; background:#4F8EF7; }
-.topic-bar .bar-meta { font-size:.85rem; opacity:.85; margin-top:6px; }
-.topic-bar.needs-focus .bar { background:#d9534f; }
-.topic-bar.developing .bar { background:#f0ad4e; }
-.topic-bar.strong .bar { background:#5cb85c; }
-.topic-bar.excellent .bar { background:#5bc0de; }
-
-.missed { margin:6px 0; }
-.missed summary { cursor:pointer; }
-.missed-body { padding:8px 0 0 12px; }
-.primary { background:#4F8EF7; color:white; border:none; border-radius:8px; padding:10px 14px; font-weight:600; }
 .drag-item, .drop-zone {
   padding: 10px 15px;
   border: 2px dashed #ccc;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   background-color: #f9f9f9;
   cursor: move;
-  min-width: 150px;
+  min-width: 140px;
   text-align: center;
+  transition: border-color 0.2s, background 0.2s;
 }
 
 .drop-zone {
@@ -92,24 +139,127 @@ h1, h2 {
   border-color: red;
 }
 
+body.dark .drag-item, body.dark .drop-zone {
+  background-color: #2a2a2a;
+  border-color: #555;
+}
+
+/* Summary KPIs */
+.summary-header {
+  display: flex;
+  gap: 12px;
+  margin: 8px 0 16px;
+  flex-wrap: wrap;
+}
+
+.kpi {
+  flex: 1;
+  background: var(--card-dark);
+  border-radius: var(--border-radius);
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+body:not(.dark) .kpi {
+  background: var(--primary);
+  color: #fff;
+}
+
+.kpi .label {
+  font-size: .8rem;
+  opacity: .9;
+}
+
+.kpi .value {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* Topic bars */
+.topic-bars {
+  display: grid;
+  gap: 10px;
+  margin: 10px 0 18px;
+}
+
+.topic-bar .bar-label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.topic-bar .bar-wrap {
+  background: #333;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.topic-bar .bar {
+  height: 10px;
+  background: var(--primary);
+}
+
+.topic-bar .bar-meta {
+  font-size: .85rem;
+  opacity: .85;
+  margin-top: 6px;
+}
+
+.topic-bar.needs-focus .bar { background: #d9534f; }
+.topic-bar.developing .bar { background: #f0ad4e; }
+.topic-bar.strong .bar { background: #5cb85c; }
+.topic-bar.excellent .bar { background: #5bc0de; }
+
+/* Review queue */
+.missed {
+  margin: 6px 0;
+  background: rgba(0,0,0,0.03);
+  padding: 8px;
+  border-radius: var(--border-radius);
+}
+
+body.dark .missed {
+  background: rgba(255,255,255,0.05);
+}
+
+.missed summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.missed-body {
+  padding: 8px 0 0 12px;
+  font-size: 0.9rem;
+}
+
+/* Primary button override */
+.primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 10px 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.primary:hover {
+  background: #3a73d9;
+}
+
 /* Chart canvas */
 #score-chart {
   margin-top: 30px;
 }
 
-.next-button {
-  display: block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: 0;
-  padding: 10px 20px;
-  font-size: 16px;
-}
-
-
-.options-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .options-wrapper button {
+    flex: 1 1 100%;
+  }
+  .summary-header {
+    flex-direction: column;
+  }
 }
